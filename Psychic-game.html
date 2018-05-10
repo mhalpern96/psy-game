@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>psychic game</title>
+  </head>'
+
+<body>
+<div>
+    <h1>psychic game</h1>
+</div>
+<script>
+ var wins = 0;
+ var loses =0;
+ var rounds = 3;
+ var letters = ["a","b","c","d","e","f","g","h"];
+
+ document.onkeydown = function(event) {
+     console.log(event);
+    //  console.log('wrod')
+ }
+
+
+
+var x= Math.random(letters.length);
+Aletter = document.letters(x);
+if (event = Aletter){
+  wins= wins + 1
+  rounds = rounds - 1
+
+}
+else {
+  loses= loses + 1
+  rounds= rounds -1
+}
+
+
+</script>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+  
+</html>
